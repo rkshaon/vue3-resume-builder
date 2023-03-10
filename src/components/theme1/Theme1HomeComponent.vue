@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div style="height: 100px; background-color: bisque;">
         <p>Theme 1 Start Here</p>
     </div>
 </template>
