@@ -1,13 +1,12 @@
 <template>
     <div>
-        <h1><router-link to="/">Home Page</router-link></h1>
-        <router-link to="/theme1">Theme 1</router-link>
+        <p>Theme 1 Start Here</p>
     </div>
 </template>
 
 <script>
 export default {
-    name: 'HomeComponent',
+    name: 'Theme1HomeComponent',
     props: {}
 }
 </script>
