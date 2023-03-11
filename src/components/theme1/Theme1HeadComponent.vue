@@ -1,6 +1,6 @@
 <template>
     <div class="head">
-        <h1>Rezaul Karim Shaon</h1>
+        <h1 class="text-uppercase">Rezaul Karim Shaon</h1>
         <h5>Backend Engineer</h5>
     </div>
 </template>

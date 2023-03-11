@@ -1,14 +1,16 @@
 <template>
     <Theme1HeadComponent />
+    <Theme1BodyComponent style="padding-top: 50px;"/>
 </template>
 
 <script>
+import Theme1BodyComponent from './Theme1BodyComponent.vue'
 import Theme1HeadComponent from './Theme1HeadComponent.vue'
 
 export default {
     name: 'Theme1HomeComponent',
     props: {},
-    components: { Theme1HeadComponent }
+    components: { Theme1HeadComponent, Theme1BodyComponent }
 }
 </script>
 
