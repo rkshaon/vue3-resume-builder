@@ -1,13 +1,14 @@
 <template>
-    <div style="height: 100px; background-color: bisque;">
-        <p>Theme 1 Start Here</p>
-    </div>
+    <Theme1HeadComponent />
 </template>
 
 <script>
+import Theme1HeadComponent from './Theme1HeadComponent.vue'
+
 export default {
     name: 'Theme1HomeComponent',
-    props: {}
+    props: {},
+    components: { Theme1HeadComponent }
 }
 </script>
 
