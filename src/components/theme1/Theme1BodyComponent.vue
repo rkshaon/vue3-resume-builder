@@ -2,22 +2,34 @@
     <div class="row">
         <div class="col-3">
             <div class="text-end">
-                <h1 class="text-uppercase">Contact</h1>
-                <p>rkshaon.ist@gmail.com</p>
-                <p>+8801521205142</p>
-                <p>Dhaka, Bangladesh</p>
-                <p>LinkedIn</p>
+                <h2 class="text-uppercase">Contact</h2>
+                <ul>
+                    <li>rkshaon.ist@gmail.com</li>
+                    <li>+8801521205142</li>
+                    <li>Dhaka, Bangladesh</li>
+                    <li><a href="https://www.linkedin.com/in/rkshaon/" target="_blank">LinkedIn</a></li>
+                </ul>
             </div>
             <div class="text-end">
-                <h1 class="text-uppercase">Education</h1>
-                <p>BSc in CSE</p>
-                <p>National University, Bangladesh</p>
+                <h2 class="text-uppercase">Education</h2>
+                <ul>
+                    <li>BSc in CSE</li>
+                    <li>Institute of Science and Technology</li>
+                    <li>under</li>
+                    <li>National University, Bangladesh</li>
+                </ul>
+                <p></p>
+                <p></p>
             </div>
             <div class="text-end">
-                <h1 class="text-uppercase">Skills</h1>
-                <p>Python</p>
-                <p>Django</p>
-                <p>PostgreSQL</p>
+                <h2 class="text-uppercase">Skills</h2>
+                <ul>
+                    <li>Python</li>
+                    <li>Django</li>
+                    <li>PostgreSQL</li>
+                    <li>Git</li>
+                    <li>Linux</li>
+                </ul>
             </div>
         </div>
         <div class="col-1"></div>
@@ -84,3 +96,9 @@ export default {
     props: {}
 }
 </script>
+
+<style scoped>
+ul {
+    list-style-type: none;
+}
+</style>
