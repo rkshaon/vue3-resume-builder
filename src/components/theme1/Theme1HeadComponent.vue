@@ -1,7 +1,7 @@
 <template>
     <div class="head">
-        <h1 class="text-uppercase">Rezaul Karim Shaon</h1>
-        <h5><i>Backend Engineer</i></h5>
+        <p class="text-uppercase akceler-a-font applicant-name">Rezaul Karim Shaon</p>
+        <p class="text-uppercase akceler-a-font applicant-designation"><i>Backend Engineer</i></p>
     </div>
 </template>
 
@@ -18,5 +18,18 @@ export default {
     text-align: center;
     padding: 25px 0px;
     color: #fff;
+}
+.applicant-name {
+    letter-spacing: 5px;
+    font-weight: lighter;
+    font-size: 50px;
+    padding: 0px;
+    margin: 0px;
+}
+.applicant-designation {
+    font-size: 24px;
+    letter-spacing: 1px;
+    padding: 0px;
+    margin: 0px;
 }
 </style>
