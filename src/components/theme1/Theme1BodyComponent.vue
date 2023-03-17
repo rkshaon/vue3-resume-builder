@@ -1,10 +1,10 @@
 <template>
     <div class="row">
-        <div class="col-3">
+        <div class="col-4">
             <div class="text-end">
                 <h2 class="text-uppercase">Contact</h2>
                 <ul>
-                    <li>rkshaon.ist@gmail.com</li>
+                    <li>rkshaon.ist@gmail.com<font-awesome-icon icon="fa-solid fa-user-secret" /></li>
                     <li>+8801521205142</li>
                     <li>Dhaka, Bangladesh</li>
                     <li><a href="https://www.linkedin.com/in/rkshaon/" target="_blank">LinkedIn</a></li>
@@ -32,7 +32,6 @@
                 </ul>
             </div>
         </div>
-        <div class="col-1"></div>
         <div class="col-8">
             <div class="text-start">
                 <h1 class="text-uppercase">Work Experience</h1>

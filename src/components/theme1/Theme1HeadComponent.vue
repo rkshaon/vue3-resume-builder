@@ -1,7 +1,7 @@
 <template>
     <div class="head">
         <h1 class="text-uppercase">Rezaul Karim Shaon</h1>
-        <h5>Backend Engineer</h5>
+        <h5><i>Backend Engineer</i></h5>
     </div>
 </template>
 
@@ -14,8 +14,9 @@ export default {
 
 <style scoped>
 .head {
-    background-color: #B2BEB5;
+    background-color: #333333;
     text-align: center;
     padding: 25px 0px;
+    color: #fff;
 }
 </style>
