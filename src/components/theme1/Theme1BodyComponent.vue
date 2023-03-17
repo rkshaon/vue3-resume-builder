@@ -1,13 +1,23 @@
 <template>
     <div class="row">
-        <div class="col-4">
+        <div class="col-4" id="left-side-bar">
             <div class="text-end">
                 <h2 class="text-uppercase">Contact</h2>
                 <ul>
-                    <li>rkshaon.ist@gmail.com<font-awesome-icon icon="fa-solid fa-user-secret" /></li>
-                    <li>+8801521205142</li>
-                    <li>Dhaka, Bangladesh</li>
-                    <li><a href="https://www.linkedin.com/in/rkshaon/" target="_blank">LinkedIn</a></li>
+                    <li>rkshaon.ist@gmail.com<font-awesome-icon icon="fa-solid fa-envelope" style="padding-left: 10px;"/></li>
+                    <li>+8801521205142<font-awesome-icon icon="fa-solid fa-phone" style="padding-left: 10px;"/></li>
+                    <li>Dhaka, Bangladesh<font-awesome-icon icon="fa-solid fa-address-book" style="padding-left: 10px;" /></li>
+                    <li>
+                        <a href="https://www.linkedin.com/in/rkshaon/" target="_blank">
+                            <font-awesome-icon icon="fab fa-linkedin" style="color: black; padding-left: 5px;" />
+                        </a>
+                        <a href="https://twitter.com/rkshaon97" target="_blank">
+                            <font-awesome-icon icon="fab fa-twitter" style="color: black; padding-left: 5px;"/>
+                        </a>
+                        <a href="https://github.com/rkshaon" target="_blank">
+                            <font-awesome-icon icon="fab fa-github" style="color: black; padding-left: 5px;"/>
+                        </a>
+                    </li>
                 </ul>
             </div>
             <div class="text-end">
@@ -15,7 +25,6 @@
                 <ul>
                     <li>BSc in CSE</li>
                     <li>Institute of Science and Technology</li>
-                    <li>under</li>
                     <li>National University, Bangladesh</li>
                 </ul>
                 <p></p>
@@ -99,5 +108,8 @@ export default {
 <style scoped>
 ul {
     list-style-type: none;
+}
+#left-side-bar li {
+    padding-top: 5px;
 }
 </style>
