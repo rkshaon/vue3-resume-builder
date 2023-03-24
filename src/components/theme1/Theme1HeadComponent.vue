@@ -16,7 +16,7 @@ export default {
 .head {
     background-color: #333333;
     text-align: center;
-    padding: 25px 0px;
+    padding: 5px 0px;
     color: #fff;
 }
 .applicant-name {

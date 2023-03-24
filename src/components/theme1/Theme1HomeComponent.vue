@@ -1,8 +1,8 @@
 <template>
-    <div class="container" style="border: 1px dotted black;">
+    <div class="container" style="">
         <div class="resume">
             <Theme1HeadComponent />
-            <Theme1BodyComponent style="padding-top: 50px;"/>
+            <Theme1BodyComponent style="padding-top: 10px;"/>
         </div>
     </div>
 </template>

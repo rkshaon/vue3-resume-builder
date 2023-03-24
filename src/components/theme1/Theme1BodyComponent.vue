@@ -1,9 +1,9 @@
 <template>
     <div class="row">
-        <div class="col-4" id="left-side-bar">
+        <div class="col-3" id="left-side-bar">
             <div class="text-end">
-                <h3 class="text-uppercase akceler-a-medium-font">Contact</h3>
-                <ul class="city-boys-soft-light-font font-size-18 list-style-type-none">
+                <h4 class="text-uppercase akceler-a-medium-font">Contact</h4>
+                <ul class="city-boys-soft-light-font font-size-14 list-style-type-none">
                     <li>
                         rkshaon.ist@gmail.com<font-awesome-icon icon="fa-solid fa-envelope" style="padding-left: 10px;"/>
                     </li>
@@ -23,8 +23,8 @@
                 </ul>
             </div>
             <div class="text-end">
-                <h3 class="text-uppercase akceler-a-medium-font">Education</h3>
-                <ul class="city-boys-soft-light-font font-size-18 list-style-type-none">
+                <h4 class="text-uppercase akceler-a-medium-font">Education</h4>
+                <ul class="city-boys-soft-light-font font-size-14 list-style-type-none">
                     <li>BSc in CSE</li>
                     <li>Institute of Science and Technology</li>
                     <li>National University, Bangladesh</li>
@@ -33,8 +33,8 @@
                 <p></p>
             </div>
             <div class="text-end">
-                <h3 class="text-uppercase akceler-a-medium-font">Skills</h3>
-                <ul class="city-boys-soft-light-font font-size-18 list-style-type-none">
+                <h4 class="text-uppercase akceler-a-medium-font">Skills</h4>
+                <ul class="city-boys-soft-light-font font-size-14 list-style-type-none">
                     <li>Python</li>
                     <li>Django</li>
                     <li>PostgreSQL</li>
@@ -45,11 +45,11 @@
         </div>
         <div class="col-8">
             <div class="text-start">
-                <h3 class="text-uppercase akceler-a-medium-font">Work Experience</h3>
+                <h4 class="text-uppercase akceler-a-medium-font">Work Experience</h4>
                 <div>
-                    <h5>Software Engineer</h5>
+                    <h5 class="margin-bottom-0">Software Engineer</h5>
                     <div class="city-boys-soft-regular-font font-weight-bold">
-                        <p>
+                        <p class="margin-bottom-0">
                             Algorithm Generation Limited || Dec' 2022 to Present
                         </p>
                     </div>
@@ -62,9 +62,9 @@
                     </ul>
                 </div>
                 <div>
-                    <h5>Junior Software Engineer</h5>
+                    <h5 class="margin-bottom-0">Junior Software Engineer</h5>
                     <div class="city-boys-soft-regular-font font-weight-bold">
-                        <p>
+                        <p class="margin-bottom-0">
                             Algorithm Generation Limited || Dec' 2021 to Nov' 2022
                         </p>
                     </div>
@@ -76,9 +76,9 @@
                     </ul>
                 </div>
                 <div>
-                    <h5 class="">Apprentice Software Engineer</h5>
+                    <h5 class="margin-bottom-0">Apprentice Software Engineer</h5>
                     <div class="city-boys-soft-regular-font font-weight-bold">
-                        <p>
+                        <p class="margin-bottom-0">
                             Algorithm Generation Limited || Jun '21 to Nov '21
                         </p>
                     </div>
@@ -90,12 +90,12 @@
                 </div>
             </div>
             <div class="text-start">
-                <h3 class="text-uppercase akceler-a-medium-font">Projects</h3>
+                <h4 class="text-uppercase akceler-a-medium-font">Projects</h4>
                 <div>
-                    <h5>Algorithm Generation Limited</h5>
+                    <h5 class="margin-bottom-0">Algorithm Generation Limited</h5>
                     <div>
                         <div class="city-boys-soft-regular-font font-weight-bold">
-                            <p>
+                            <p class="margin-bottom-0">
                                 Personal Accounting Application || Jun '21 to Present
                             </p>
                         </div>
@@ -114,7 +114,7 @@
                     </div>
                     <div>
                         <div class="city-boys-soft-regular-font font-weight-bold">
-                            <p>
+                            <p class="margin-bottom-0">
                                 HR Application || Aug '21 to Jan '22
                             </p>
                         </div>
