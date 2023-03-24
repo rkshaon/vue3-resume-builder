@@ -93,23 +93,42 @@
                 <h3 class="text-uppercase akceler-a-medium-font">Projects</h3>
                 <div>
                     <h5>Algorithm Generation Limited</h5>
-                    <div class="city-boys-soft-regular-font font-weight-bold">
-                        <p>
-                            Personal Accounting Application || Jun '21 to Present
-                        </p>
+                    <div>
+                        <div class="city-boys-soft-regular-font font-weight-bold">
+                            <p>
+                                Personal Accounting Application || Jun '21 to Present
+                            </p>
+                        </div>
+                        <ul class="city-boys-soft-regular-font list-style-type-circle">
+                            <li>Analysis requirements, design and develop database and APIs in Backend.</li>
+                            <li>
+                                <div class="" role="group" aria-label="Basic example">
+                                    <button type="button" class="btn btn-sm btn-outline-dark mx-1">DRF</button>
+                                    <button type="button" class="btn btn-sm btn-outline-dark mx-1">PostgreSQL</button>
+                                    <button type="button" class="btn btn-sm btn-outline-dark mx-1">Django-Channels</button>
+                                    <button type="button" class="btn btn-sm btn-outline-dark mx-1">AP Scheduler</button>
+                                    <button type="button" class="btn btn-sm btn-outline-dark mx-1">Google APIs</button>
+                                </div>
+                            </li>
+                        </ul>
                     </div>
-                    <ul class="city-boys-soft-regular-font list-style-type-circle">
-                        <li>Analysis requirements, design and develop database and APIs in Backend.</li>
-                        <li>
-                            <div class="" role="group" aria-label="Basic example">
-                                <button type="button" class="btn btn-sm btn-outline-secondary mx-1">DRF</button>
-                                <button type="button" class="btn btn-sm btn-outline-secondary mx-1">PostgreSQL</button>
-                                <button type="button" class="btn btn-sm btn-outline-secondary mx-1">Django-Channels</button>
-                                <button type="button" class="btn btn-sm btn-outline-secondary mx-1">AP Scheduler</button>
-                                <button type="button" class="btn btn-sm btn-outline-secondary mx-1">Google APIs</button>
-                            </div>
-                        </li>
-                    </ul>
+                    <div>
+                        <div class="city-boys-soft-regular-font font-weight-bold">
+                            <p>
+                                HR Application || Aug '21 to Jan '22
+                            </p>
+                        </div>
+                        <ul class="city-boys-soft-regular-font list-style-type-circle">
+                            <li>Analysis requirements, design and develop database and APIs in Backend.</li>
+                            <li>
+                                <div class="" role="group" aria-label="Basic example">
+                                    <button type="button" class="btn btn-sm btn-outline-dark mx-1">DRF</button>
+                                    <button type="button" class="btn btn-sm btn-outline-dark mx-1">PostgreSQL</button>
+                                    <button type="button" class="btn btn-sm btn-outline-dark mx-1">Django-Channels</button>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>
