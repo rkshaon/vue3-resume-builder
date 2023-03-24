@@ -1,16 +1,38 @@
 <template>
   <nav-bar />
+  <div class="d-flex justify-content-center" style="margin: 10px 0px;">
+    <button class="btn btn-secondary" @click="downloadResume">Download</button>
+  </div>
   <router-view />
 </template>
 
 <script>
 
 import NavBar from './components/NavBar.vue'
+import jsPDF from 'jspdf'
 
 export default {
   name: 'App',
   components: {
     NavBar
+  },
+  methods: {
+    downloadResume() {
+      const doc = new jsPDF();
+      const resume = document.getElementsByClassName("resume")[0].innerHTML;
+
+      doc.html(resume, {
+        callback: function () {
+          doc.save('resume.pdf');
+        }
+      });
+
+      // doc.text('Hello world.', 10, 10);
+      // doc.save('resume.pdf');
+      // doc.fromHTML(resume, 10, 10);
+      // doc.html(resume, 15, 15);
+      // doc.save('resume.pdf');
+    }
   }
 }
 </script>

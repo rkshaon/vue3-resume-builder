@@ -1,7 +1,9 @@
 <template>
     <div class="container" style="border: 1px dotted black;">
-        <Theme1HeadComponent />
-        <Theme1BodyComponent style="padding-top: 50px;"/>
+        <div class="resume">
+            <Theme1HeadComponent />
+            <Theme1BodyComponent style="padding-top: 50px;"/>
+        </div>
     </div>
 </template>
 
